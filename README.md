@@ -144,12 +144,12 @@ Example command:
  -->
 
 ### Setup
-
-create a new empty repo
-run in your terminal : npx create-react-app 'app-name'
-cd app-name
-run the commands as seen in the new empty Github repo to link to the upstream.
-npm i react-router react-router-dom
+- Goto the main page on Github
+- click on <>code.
+- Copy the url of the repository
+- Goto the terminal of your machine.
+- clone this project thus: git clone url
+- code .
 <!--
 Example commands:
 
@@ -214,11 +214,11 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author<a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
@@ -238,13 +238,13 @@ FUTURE FEATURES
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+<!-- ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- SUPPORT -->
 
