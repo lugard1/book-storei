@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/extensions
 import Card from '../UI/Card';
 
 const AddBook = () => (
