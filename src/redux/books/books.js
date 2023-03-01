@@ -7,7 +7,7 @@ const initialState = {
   books: [],
 };
 
-const Reducer = createReducer(initialState, (develop) => {
+const booksReducer = createReducer(initialState, (develop) => {
   develop.addCase(ADD_BOOK, (state, action) => {
     state.books.push(action.payload);
   });
@@ -17,4 +17,4 @@ const Reducer = createReducer(initialState, (develop) => {
   develop.addDefaultCase((state) => state);
 });
 
-export default Reducer;
+export default booksReducer;
