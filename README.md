@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: initialize]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router.
+**[Bookstore: Add Reducers and action]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router and in addition introduce redux reducers and actions for add and remove.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -73,11 +73,12 @@ After you're finished please remove all the comments and instructions!
 - Webpack
 - React
 - React Router DOM
+- Redux
 </a>
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
+Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -98,14 +99,14 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> 
 
-Features -->
+Features 
 ### Key Features <a name="key-features"></a>
 
 >
 
-- **A Home page, Calculator page, and Quote page**
+- **A** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,12 +144,12 @@ Example command:
  -->
 
 ### Setup
-
-create a new empty repo
-run in your terminal : npx create-react-app 'app-name'
-cd app-name
-run the commands as seen in the new empty Github repo to link to the upstream.
-npm i react-router react-router-dom
+- Goto the main page on Github
+- click on <>code.
+- Copy the url of the repository
+- Goto the terminal of your machine.
+- clone this project thus: git clone url
+- code .
 <!--
 Example commands:
 
@@ -213,7 +214,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Author<a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
@@ -231,19 +232,19 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style, feel and the functionalities of the bookstore app.**
+-  **I would work on the style, feel and the functionalities of the bookstore app and also use Redux in React components.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+<!-- ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- SUPPORT -->
 
@@ -284,7 +285,7 @@ I would like to thank everyone that made this work a success, most especially Ab
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/book-storei/blob/initialize-project/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/book-storei/blob/reducers-and-actions/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
