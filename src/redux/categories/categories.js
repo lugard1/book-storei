@@ -6,13 +6,13 @@ const initialState = {
   status: '',
 };
 
-const categoriesReducer = createReducer(initialState, (develop) => {
-  develop.addCase(CHECK_STATUS, (state) => {
-    const newState = { ...state, status: 'Under Construction' };
+const categoriesReducer = createReducer(initialState, (builder) => {
+  builder.addCase(CHECK_STATUS, (state) => {
+    const nwState = { ...state, status: 'Under Construction' };
 
-    return newState;
+    return nwState;
   });
-  develop.addDefaultCase((state) => state);
+  builder.addDefaultCase((state) => state);
 });
 
 export default categoriesReducer;

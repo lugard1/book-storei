@@ -4,17 +4,47 @@ export const ADD_BOOK = createAction('books/add');
 export const REMOVE_BOOK = createAction('book/remove');
 
 const initialState = {
-  books: [],
+  books: [
+    {
+      id: '1',
+      title: 'Things Fall Apart',
+      author: 'Chinua Achebe',
+      category: 'Literature',
+    },
+    {
+      id: '2',
+      title: 'What is Life',
+      author: 'Erwin Schrodinger',
+      category: 'Science',
+    },
+    {
+      id: '3',
+      title: 'Half of a Yellow Sun',
+      author: 'Chimamanda Adichie',
+      category: 'History',
+    },
+  ],
 };
 
-const booksReducer = createReducer(initialState, (develop) => {
-  develop.addCase(ADD_BOOK, (state, action) => {
-    state.books.push(action.payload);
+const booksReducer = createReducer(initialState, (builder) => {
+  builder.addCase(ADD_BOOK, (state, action) => {
+    const updatedState = {
+      ...state,
+      books: [
+        ...state.books,
+        { ...action.payload, id: `${state.books.length + 1}` },
+      ],
+    };
+    return updatedState;
   });
-  develop.addCase(REMOVE_BOOK, (state, action) => {
-    state.books.filter((book) => book.id !== action.payload);
+
+  builder.addCase(REMOVE_BOOK, (state, action) => {
+    const updatedBooks = [...state.books].filter(
+      (book) => book.id !== action.payload,
+    );
+    return { ...state, books: updatedBooks };
   });
-  develop.addDefaultCase((state) => state);
+  builder.addDefaultCase((state) => state);
 });
 
 export default booksReducer;

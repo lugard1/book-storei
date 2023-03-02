@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: Add Reducers and action]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router and in addition introduce redux reducers and actions for add and remove.
+**[Bookstore: redux in react component]** In this project, I use Redux Store to display books.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -73,40 +73,41 @@ After you're finished please remove all the comments and instructions!
 - Webpack
 - React
 - React Router DOM
-- Redux
 </a>
 
-<!-- ### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a> -->
 
-Describe the tech stack and include only the relevant sections that apply to your project.
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details> 
+</details> -->
 
-Features 
 ### Key Features <a name="key-features"></a>
 
 >
 
-- **A** -->
+- **input fields for adding books and authors**
+- **Nav links**
+- **Add button**
+- **remove button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,10 +115,9 @@ Features
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- > Add a link to your deployed project.
+- Not available.
 
-- [Live Demo Link]() -->
-- N/A
+<!-- - [Live Demo Link]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +132,7 @@ You can clone or fork this project, to do that you need:
 
 In order to run this project you need:
 - Visual Studio Code or amy other equivalent code editor
-- Knowledge in HTML, CSS, Javascript and Github
+- Knowledge in HTML, CSS, Javascript, React, Redux and Github
 - And internet connection.
 
 <!--
@@ -144,11 +144,11 @@ Example command:
  -->
 
 ### Setup
-- Goto the main page on Github
-- click on <>code.
-- Copy the url of the repository
+- Goto GitHub main page.
+- Click on <> code.
+- Copy the url of the repo
 - Goto the terminal of your machine.
-- clone this project thus: git clone url
+- Clone the project repo thus: git clone url of the repo
 - code .
 <!--
 Example commands:
@@ -162,8 +162,12 @@ Example commands:
 ### Install
 
 Install this project with:
-- Git Bash
-- Vs code 
+- copy the link of the repo. and 
+- open the terminal in your local machine
+- git clone url of the repo.
+- ls
+- cd to repo. name.
+- code . to open in Vs code
 <!--
 Example command:
 
@@ -214,7 +218,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author<a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
@@ -232,19 +236,19 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style, feel and the functionalities of the bookstore app and also use Redux in React components.**
+-  **I would work on the style, feel and the functionalities of the bookstore app using API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-<!-- ## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -285,7 +289,7 @@ I would like to thank everyone that made this work a success, most especially Ab
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/book-storei/blob/reducers-and-actions/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/book-storei/blob/redux-in-react-components/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
