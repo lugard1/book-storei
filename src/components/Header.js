@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaUser } from 'react-icons/fa';
 
 const Header = () => (
@@ -10,10 +10,10 @@ const Header = () => (
       </div>
       <ul>
         <li>
-          <Link to="/">BOOK</Link>
+          <NavLink to="/">BOOK</NavLink>
         </li>
         <li>
-          <Link to="/categories">CATEGORIES</Link>
+          <NavLink to="/categories">CATEGORIES</NavLink>
         </li>
       </ul>
       <div>

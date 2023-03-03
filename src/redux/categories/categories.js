@@ -8,7 +8,7 @@ const initialState = {
 
 const categoriesReducer = createReducer(initialState, (builder) => {
   builder.addCase(CHECK_STATUS, (state) => {
-    const nwState = { ...state, status: 'Under Construction' };
+    const nwState = { ...state, status: 'Under Constraction' };
 
     return nwState;
   });

@@ -1,5 +1,6 @@
 import React from 'react';
-import AddBook from '../components/Books/AddBook';
+
+import AddNewBook from '../components/Books/AddBook';
 import BookList from '../components/Books/BookList';
 import Card from '../components/UI/Card';
 
@@ -7,7 +8,7 @@ const Home = () => (
   <section>
     <Card>
       <BookList />
-      <AddBook />
+      <AddNewBook />
     </Card>
   </section>
 );

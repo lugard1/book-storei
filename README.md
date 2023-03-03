@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: redux in react component]** In this project, I use Redux Store to display books.
+**[Bookstore: connect to API]** In this project, I connect my React & Redux application to an existing API to create and remove books from a server.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 
 >
 
-- **input fields for adding books and authors**
+- **input fields for adding books and authors to an existing api.**
 - **Nav links**
 - **Add button**
 - **remove button**
@@ -144,11 +144,12 @@ Example command:
  -->
 
 ### Setup
-- Goto GitHub main page.
+
+- Goto the main page of my GitHub. 
 - Click on <> code.
-- Copy the url of the repo
-- Goto the terminal of your machine.
-- Clone the project repo thus: git clone url of the repo
+- Copy the url of this repo.
+- Open the terminal of your machine.
+- clone this repo thus: git clone url of repo
 - code .
 <!--
 Example commands:
@@ -204,8 +205,8 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-- GitHub Pages
-- Render
+- GitHub Pages.
+- Render.
 <!--
 Example:
 
@@ -218,11 +219,11 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
@@ -236,7 +237,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style, feel and the functionalities of the bookstore app using API.**
+-  **I would work on the style and feel of this application.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -289,7 +290,7 @@ I would like to thank everyone that made this work a success, most especially Ab
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/book-storei/blob/redux-in-react-components/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/book-storei/blob/connect-to-api/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
