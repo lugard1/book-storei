@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { uiActions } from '../ui/uiSlice';
 
 // initialize the api url in axios default url
-axios.defaults.baseURL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/eZNPE2dPLtWHMUhnsTBH/books';
+axios.defaults.baseURL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/eJI3BQerp748xUkOMohv/books';
 
 // actions
 export const fetchBooks = createAsyncThunk(
