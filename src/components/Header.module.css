@@ -1,0 +1,83 @@
+.header {
+  background: #fff;
+  width: 87.5rem;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+}
+.nav_Links {
+  display: flex;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+.nav_Links li {
+  list-style: none;
+}
+
+.navigator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_text {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.books {
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.categories {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.oval {
+  width: 2.813rem;
+  height: 2.813rem;
+  margin: 0 0 0 0.1rem;
+  align-content: center;
+  justify-content: center;
+  padding: 0.875rem;
+  border-radius: solid 1px #e8e8e8;
+}
+
+.avatarBtn {
+  width: 1.063rem;
+  height: 1.063rem;
+  margin-right: 80px;
+  /* font-size: 20px; */
+  color: #0290ff;
+}
