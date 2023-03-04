@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { postANewBook } from '../../redux/books/books';
-import Card from '../UI/Card';
 import classes from './AddBook.module.css';
 
 const AddNewBook = () => {
@@ -70,8 +69,9 @@ const AddNewBook = () => {
   }, [isTitleValid, isAuthorValid, title, author]);
 
   return (
-    <Card extraclass={classes.form_container}>
-      <h2>Add New Book</h2>
+    <div>
+      <hr />
+      <h2 className={classes.h2_header}>Add New Book</h2>
       <form onSubmit={addBookHandler} className={classes.form}>
         <div
           className={`${classes.form_control} ${
@@ -114,7 +114,7 @@ const AddNewBook = () => {
           <button type="submit">Add Book</button>
         </div>
       </form>
-    </Card>
+    </div>
   );
 };
 

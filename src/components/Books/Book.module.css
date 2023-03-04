@@ -104,8 +104,9 @@
   left: -25%;
   position: absolute;
   content: '';
-  width: 3px;
-  height: 100%;
+  width: 0.125rem;
+  height: 4.375rem;
+  padding-top: 2rem;
   align-self: center;
   justify-self: center;
   margin: auto 0;

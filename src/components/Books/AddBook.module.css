@@ -1,15 +1,13 @@
-.form_container {
-  padding: 3%;
-  margin-top: 25px;
-}
-
-.form_container h2 {
+.h2_header {
   margin-bottom: 20px;
+  margin-left: 2.4rem;
   color: #888;
 }
 
 .form {
   display: flex;
+  width: 94%;
+  margin: 0 auto 16.563rem;
   gap: 1rem;
   justify-content: space-between;
 }
@@ -51,4 +49,16 @@ select {
 .form_control select * {
   font-size: 1rem;
   border-bottom: 1px solid #e8e8e8;
+}
+
+hr {
+  width: 94%;
+  height: 0.125rem;
+  margin: auto;
+  margin-bottom: 1.813rem;
+  border: solid 1px #e8e8e8;
+}
+
+::placeholder {
+  color: #e8e8e8;
 }
