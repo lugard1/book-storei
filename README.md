@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: connect to API]** In this project, I connect my React & Redux application to an existing API to create and remove books from a server.
+**[Bookstore: styling]** In this project, I style the Bookstore app using all the details of the Bookstore design in Zeplin.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -103,11 +103,12 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 >
-
-- **input fields for adding books and authors to an existing api.**
+- **Two sub pages: Home page and Categories page**
+- **Input fields for adding books and authors**
 - **Nav links**
 - **Add button**
-- **remove button**
+- **Remove button**
+- **Select option button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,12 +145,11 @@ Example command:
  -->
 
 ### Setup
-
-- Goto the main page of my GitHub. 
+- Goto main page of gitHub.
 - Click on <> code.
-- Copy the url of this repo.
-- Open the terminal of your machine.
-- clone this repo thus: git clone url of repo
+- Copy url of repo.
+- Goto the terminal of your machine.
+- Clone the repo thus: git clone url of repo
 - code .
 <!--
 Example commands:
@@ -219,11 +219,11 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
@@ -237,7 +237,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style and feel of this application.**
+-  **I would work on the style, feel and the functionalities of the bookstore app using API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -290,7 +290,7 @@ I would like to thank everyone that made this work a success, most especially Ab
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/book-storei/blob/connect-to-api/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/book-storei/blob/styling/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 

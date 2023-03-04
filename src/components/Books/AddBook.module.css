@@ -1,0 +1,64 @@
+.h2_header {
+  margin-bottom: 20px;
+  margin-left: 2.4rem;
+  color: #888;
+}
+
+.form {
+  display: flex;
+  width: 94%;
+  margin: 0 auto 16.563rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.form_control {
+  flex: 1;
+}
+
+.input_invalid p {
+  color: red;
+  padding: 10px;
+}
+
+.form_control input,
+select {
+  width: 100%;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  outline-color: #0290ff;
+}
+
+.form_action button {
+  padding: 15px 24px;
+  color: #fff;
+  border: none;
+  background: #0290ff;
+  font-size: 1.1rem;
+  border-radius: 3px;
+}
+
+.input_invalid input {
+  border-color: red;
+  color: red;
+  outline-color: red;
+}
+
+.form_control select * {
+  font-size: 1rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+hr {
+  width: 94%;
+  height: 0.125rem;
+  margin: auto;
+  margin-bottom: 1.813rem;
+  border: solid 1px #e8e8e8;
+}
+
+::placeholder {
+  color: #e8e8e8;
+}

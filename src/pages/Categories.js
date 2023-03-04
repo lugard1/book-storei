@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import classNames from './Categories.module.css';
 
 import { CHECK_STATUS } from '../redux/categories/categories';
 import Card from '../components/UI/Card';
@@ -17,7 +18,7 @@ const Categories = () => {
     statusContent = <p>{status}</p>;
   }
   return (
-    <Card>
+    <Card className={classNames.container}>
       <h2>Hello Form CategoriesPage</h2>
       {statusContent}
       <button type="button" onClick={checkStatusHandler}>
