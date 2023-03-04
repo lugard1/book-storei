@@ -1,25 +1,28 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaUser } from 'react-icons/fa';
-import classNames from './Header.module.css';
+
+import classes from './Header.module.css';
 
 const Header = () => (
-  <header className={classNames.header}>
-    <nav className={classNames.navigator}>
-      <div>
-        <h1 className={classNames.header_text}>Bookstore CMS</h1>
+  <header className={classes.header}>
+    <nav className={classes.navbar}>
+      <div className={classes.nav_brand}>
+        <Link to="/">
+          <h1>Bookstore CMS</h1>
+        </Link>
       </div>
-      <ul className={classNames.nav_Links}>
-        <li className={classNames.books}>
+      <ul className={classes.nav_items}>
+        <li className={classes.nav_item}>
           <NavLink to="/">BOOK</NavLink>
         </li>
-        <li className={classNames.categories}>
+        <li>
           <NavLink to="/categories">CATEGORIES</NavLink>
         </li>
       </ul>
-      <div className={classNames.oval}>
-        <button type="button" className={classNames.avatarBtn}>
-          <FaUser />
+      <div className={classes.user_action}>
+        <button type="button">
+          <FaUser className={classes.user_icon} />
         </button>
       </div>
     </nav>
